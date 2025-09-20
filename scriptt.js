@@ -252,7 +252,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById('hardBtn').addEventListener('click', function () {
     document.getElementById('fidrat-home').style.backgroundImage = 'url("Images/Common_Images/gamebg.png")';
     clearGame();
-    level13();
+    level10();
     document.getElementById('para').style.display = 'none';
     document.getElementById('para1').style.display = 'none';
     document.getElementById('ie').style.display = 'none';
