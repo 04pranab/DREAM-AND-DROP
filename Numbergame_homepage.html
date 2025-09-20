@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Numbers Game</title>
+  <link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+
+<body id="fidrat-home">
+
+
+  <div class="header">
+    
+
+    <!-- Audio On/Off Toggle -->
+    <div class="container1">
+      <label class="switch">
+        <input type="checkbox" class="hidden" id="audio_setting" checked>
+        <div class="slider"></div>
+        <img id="audio_icon_off" class="audio_icon" src="Images\Common_Images\audio_off.png" alt="Audio Off">
+        <img id="audio_icon_on" class="audio_icon" src="Images\Common_Images\audio_on.png" alt="Audio On">
+      </label>
+    </div>
+  </div>
+
+  
+
+  <h1 id="game-title">NumberS World</h1>
+
+  
+
+  <a href="Numbermatch.html" id="start-link">
+    <button id="start-button" style="left:40vw; top:55%;">Start Game</button>
+  </a>
+
+  <div id="instruction-modal3" class="modal">
+    <div class="modal-content1">
+      <p>Click the numbers(1-10) in Serial Order!</p>
+      <button id="ok">Okay</button>
+    </div>
+  </div>
+
+  
+
+  
+  
+
+  <p id="para">Sri Sathya Sai Vidya Vahini </p>
+  <p id="para1">INCLUSIVE EDUCATION PROJECT</p>
+
+  <img src="Images\Common_Images\vv.png" id="vv">
+  <img src="Images\Common_Images\ie.png" id="ie">
+  <img src="Images\Common_Images\prem.png" id="prem">
+  <img src="Images\Common_Images\shanti.png" id="shanti">
+
+  <div id="overlay" class="overlay"></div>
+
+  <div id="gameOver" class="over">
+    <img src="Images\Common_Images\shanti_overlay.png" alt="Left Image" class="left-image">
+    <img src="Images\Common_Images\prem_overlay.png" alt="Right Image" class="right-image">
+    <div class="game">
+      <p id="gameOverMessage">Do you want to restart?</p>
+      <button id="restartBtn">Restart</button>
+      <button id="quitBtn">Quit</button>
+      <button id="next">Next</button>
+    </div>
+  </div>
+  
+
+  <div id="game-area"></div>
+  <div id="score">Score: <span id="score-value">0</span></div>
+  <div id="time">Time: <span id="time-value">0</span></div>
+  <div id="basket"></div>
+  <div class="obstacle"></div>
+  <div id="maze"></div>
+
+  <!-- <script src="scriptt.js"></script> -->
+  <script>
+    document.getElementById("ok").addEventListener("click", function() {
+        document.getElementById("instruction-modal3").style.display = "none";
+    });
+</script>
+  <script src="scriptt.js"></script>
+</body>
+
+</html>

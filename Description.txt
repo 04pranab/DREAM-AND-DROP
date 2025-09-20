@@ -1,0 +1,11 @@
+Images Folder:-
+ In this we have the common images which are used for both the dream drop and number game.
+ In the Dream drop and number folders we have the individual images respectively.
+
+Sounds Folder:-
+  Similar as the images folder we have the common sound and the individual sound for both the dream drop and number respectively.
+
+The dreamdrop_homepage is the home page of the dream and drop.
+The numbergame_page is the home page of the Numbers world.
+
+So everything are dynamic according to landscape.
